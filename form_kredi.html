@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Online kredi hesaplayıcı</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+
+<h2>Online Kredi Hesaplayıcı</h2>
+<br><br>
+
+<form name="form" method="post" action="krediHesabi.jsp" >
+  <table>
+     <tr> 
+      <td>İsim:</td>
+      <td>
+        <input type="text" name="isim" size="20">
+      </td>
+    </tr>
+    <tr> 
+      <td>Soyisim:</td>
+      <td>
+        <input type="text" name="soyIsim" size="20">
+      </td>
+    </tr>
+    <tr> 
+      <td>Aylık Gelir:</td>
+      <td>
+        <input type="text" name="gelir" size="20"> (parabirimi)
+      </td>
+    </tr>
+    <tr> 
+      <td>Geri Ödeme süresi:</td>
+      <td>
+        <input type="text" name="sure" size="10"> (yıl)
+      </td>
+    </tr>
+    <tr> 
+      <td>Kesinti yüzdesi:</td>
+      <td>
+        <input type="text" name="odemeYuzdesi" size="10"> %
+      </td>
+    </tr>
+	<tr> 
+      <td>Kredi yüzdesi:</td>
+      <td>
+        <input type="text" name="krediYuzdesi" size="10"> %
+      </td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+      <td> 
+	  <br>
+        <input type="submit" name="Gonder" value="Gönder">
+        <input type="reset" name="Sil" value="Sil">
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
